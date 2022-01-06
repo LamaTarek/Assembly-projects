@@ -1,4 +1,4 @@
-.model small                              // Even or odd
+.model small                             ; // Even or odd
 .data
 msg db "Enter Number : ","$"
 evn db 10,"Even","$"
