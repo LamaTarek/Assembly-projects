@@ -1,4 +1,4 @@
-codeS segment                      //Reading and writing character
+codeS segment                     ; //Reading and writing character
     main proc far
     assume cs:codeS
     call read
