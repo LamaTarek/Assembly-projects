@@ -1,4 +1,4 @@
-.model small                               // Convert capital letters in the string into small (easy)
+.model small                              ; // Convert capital letters in the string into small (easy)
 .data
 string db "ASSEMBLY","$"
 .code
@@ -18,7 +18,7 @@ int 21h
 .exit
 main endp
 end main
-------------------------------------------------------------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------------------------------------------------------------
 .model small                              ; // Convert capital letters in the string into small (hard)
 .data
 string db "ASSEMBLY","$"
